@@ -1,0 +1,26 @@
+#organization {
+    height: 100vh; 
+    padding: 30px 20px;
+    background: url("../images/img4.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: aliceblue;
+}
+
+#organization div h1 {
+    margin-top: 7%;
+}
+
+.presentation{
+    margin: 6% 0%;
+}
+
+.presentation p {
+    margin: 3% 3%;
+}
+
+
+
+

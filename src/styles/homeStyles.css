@@ -1,0 +1,71 @@
+.home {
+    margin-top: 80px;
+    height: 86.5vh;
+    padding: 20px;
+    background: url("../images/img1.jpg") no-repeat center center /* fixed */;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:aliceblue;
+}
+
+#whatsapp1 {
+    color: #00bb2d;
+    font-size:75px;
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+    z-index: 2;
+}
+
+.text {
+    font-size:28px;
+    font-family:helvetica;
+    font-weight:bold;
+    color:#71d90b;
+    text-transform:uppercase;
+}
+  
+.parpadea {
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+  
+@-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+  
+@-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+  
+@keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+
+.links{
+    color: black;
+}
+
+.links:link{
+    text-decoration: none;
+}
+
+.links:hover div{
+    color: rgba(0, 0, 121, 0.89);
+}

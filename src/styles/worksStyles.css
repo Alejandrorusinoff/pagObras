@@ -1,0 +1,13 @@
+#works {
+    /* height: 100vh; */
+    padding: 30px 20px;
+}
+
+#works div h1 {
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+.data {
+    border: 1px solid red;
+}

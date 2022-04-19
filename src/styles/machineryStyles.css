@@ -1,0 +1,64 @@
+#machinery {
+    /* height: 100vh; */
+    padding: 30px 20px;
+}
+
+#machinery div h1 {
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+.sizeImage {
+    width: 300px;
+    height: 350px;
+    border-radius: 0px;
+}
+
+.contarnerImages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.contarnerImages div {
+    color: aliceblue;
+}
+
+.buttonImg {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: rgba(141, 135, 135, 0.862);
+    transition: background-color 0.8s;
+}
+
+.buttonImg:hover{
+    background-color: rgba(58, 55, 55, 0.862);
+    border: none
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.caja{
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    margin: 12px 0px;
+    transition: transform 0.8s;
+}
+
+.caja:hover {
+    opacity: 0.6;
+    transform: scale(1.05);
+}
+
+#fotos{
+    z-index: 4;
+}
+
+

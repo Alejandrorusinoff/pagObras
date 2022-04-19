@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './containers/navbar';
+import Organization from './containers/organization';
+import Services from './containers/services';
+import Politics from './containers/politics';
+import Works from './containers/works';
+import Machinery from './containers/machinery';
+import Contact from './containers/contact';
+import ViewMoreWorks from './containers/viewMoreWorks'
+import { ToastContainer } from "react-toastify";
+import { Routes, Route, } from "react-router-dom";
+import "react-toastify/dist/ReactToastify.css";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <Organization/>
+      <Services/>
+      <Politics/>
+      <Routes>
+        <Route path="/works" element={<ViewMoreWorks/>}/> 
+        <Route path="/" element={<Works/>}/> 
+      </Routes>
+      <Machinery/>
+      <Contact/>
+      <ToastContainer/>
     </div>
   );
 }

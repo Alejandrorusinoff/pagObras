@@ -1,0 +1,27 @@
+.navbar-custom {
+    background-color: rgba(247, 241, 241, 0.842);
+}
+
+.logo {
+    justify-content: space-evenly;
+}
+
+.navBarSelect:hover{
+    color: #e5be01;
+
+}
+
+.navBarSelect:link{
+    text-decoration: none;
+}
+
+.navBarSelect:visited{
+    color: black;
+}
+
+.logo1 {
+    width: 250px;
+    height: 80px;
+    border-radius: 60px;
+}
+

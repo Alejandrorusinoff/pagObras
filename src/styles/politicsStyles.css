@@ -1,0 +1,32 @@
+#politics {
+    /* height: 100vh; */
+    padding: 30px 20px;
+    /* background: url("../images/img60.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+
+#politics div h1 {
+    margin-top: 7%;
+}
+
+.itemsPolitics div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color:rgb(231, 231, 231);
+    width: 350px;
+    height: 150px;
+    margin: 15px;
+    padding: 20px;
+}
+
+.itemsPolitics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
